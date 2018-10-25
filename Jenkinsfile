@@ -1,4 +1,6 @@
 node {
-  /bin/sh 'echo helloworld'
+    stage('Checkout') {
+    	sh 'echo hell world'
+    }
 }
 
