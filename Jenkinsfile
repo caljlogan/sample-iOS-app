@@ -1,6 +1,6 @@
 node {
     stage('Checkout') {
-    	sh 'echo hell world'
+    	sh 'fastlane custom_lane'
     }
 }
 
