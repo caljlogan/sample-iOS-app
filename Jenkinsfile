@@ -1,4 +1,5 @@
-node {
- sh ‘echo HelloWorld’
+pipeline {
+	agent any
+	sh ‘echo HelloWorld’
 }
 
